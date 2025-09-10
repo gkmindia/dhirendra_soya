@@ -242,6 +242,15 @@ a {
   border:1px solid #ccc;
   display: inline-block;
 }
+@media (max-width:1200px) {
+    .content-section{
+        height: auto;
+        background-color: #cfcfcf;
+    }
+    .content_section .title_one{
+      font-size: 36px;
+    }   
+}
 @media (max-width:992px) {
   .collapse.navbar-collapse.show{
     position: fixed;
@@ -262,6 +271,9 @@ a {
     margin: inherit !important;
     gap:10px;
     margin-bottom: 20px !important;
+  }
+  .navbar-brand img{
+    max-height: 50px;
   }
 }
 .industry-card{

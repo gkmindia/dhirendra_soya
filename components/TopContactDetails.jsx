@@ -7,7 +7,7 @@ const TopContactDetails = () => {
         <div className='bg-primary'>
             <div className="container text-white py-2">
                 <div className="d-flex gap-3 flex-wrap justify-content-between align-items-center">
-                    <div className='d-flex gap-4 gap-lg-5 align-items-center'>
+                    <div className='d-flex gap-2 gap-sm-4 flex-wrap gap-lg-5 align-items-center'>
                         <div className='d-flex gap-2 align-items-center'>
                             <i className="bi bi-telephone"></i>
                             <Link href="tel:+919131955066">
@@ -19,7 +19,7 @@ const TopContactDetails = () => {
                             <Link href="mailto:info@dhirendrasoya.com">info@dhirendrasoya.com</Link>
                         </div>
                     </div>
-                    <div className='d-flex gap-3 align-items-center footer'>
+                    <div className='d-none d-sm-flex gap-3 align-items-center footer '>
                         <SocialLink />
                     </div>
 
