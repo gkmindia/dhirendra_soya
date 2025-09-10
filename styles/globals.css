@@ -1,18 +1,18 @@
 :root {
-  --primary: #009242;
-  --secondary: #605e5d;
-  --background: #ffffff;
-  --foreground: #0d0c1e;
-  --secondary2: #0c0f28;
+    --primary: #009242;
+    --secondary: #605e5d;
+    --background: #ffffff;
+    --foreground: #0d0c1e;
+    --secondary2: #0c0f28;
 }
 
 @media (prefers-color-scheme: light) {
-  :root {
-    --primary: #009242;
-    --secondary: #605e5d;
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+    :root {
+        --primary: #009242;
+        --secondary: #605e5d;
+        --background: #ffffff;
+        --foreground: #0d0c1e;
+    }
 }
 
 /* color classes */
