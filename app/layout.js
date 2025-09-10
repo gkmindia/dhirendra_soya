@@ -63,7 +63,7 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en">
             <body className={`${geistSans.variable} ${geistMono.variable}`}>
-                <TopContactDetails />
+                {/* <TopContactDetails /> */}
                 <Header />
                 {children}
                 <Toaster position="top-right" reverseOrder={false} />
