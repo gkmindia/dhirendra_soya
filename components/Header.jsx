@@ -63,7 +63,7 @@ const Header = () => {
                             href="/get-in-touch" 
                             className={`btn btn-sm ${pathname === '/careers' ? 'btn-white':'btn-primary'}`}
                             onClick={()=>setActive(false)}
-                        >Get in toch</Link>
+                        >Get in touch</Link>
                     }
                 </div>
             </div>
